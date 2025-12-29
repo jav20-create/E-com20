@@ -258,3 +258,41 @@ Latest
 #latest{
 padding-top: 8px;
 }
+#explore{
+padding-top: 8px;
+background-color: rgba(100, 66, 200, 0.2);
+
+}
+.exp {
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 12px 24px;
+}
+#ft{
+background-color: #000000;
+
+}
+.footer__img{
+filter: invert(100%);
+}
+.footer__text{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+.footer__text--word{
+padding: 25px;
+
+}
+a{
+color: #ffffff;
+text-decoration: none;
+cursor: not-allowed;
+}
+small{
+filter: invert(100%);
+display: flex;
+justify-content: center;
+}
