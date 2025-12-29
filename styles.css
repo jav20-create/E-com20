@@ -4,6 +4,9 @@
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
 }
+html{
+scroll-behavior: smooth;
+}
 header{
 height: calc(100vh - 80px);
 }
@@ -271,10 +274,21 @@ padding: 12px 24px;
 }
 #ft{
 background-color: #000000;
+padding-top: 10px;
 
 }
+.footer__items{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
 .footer__img{
-filter: invert(100%);
+filter: grayscale(1) invert(1);
+width: 160px;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 .footer__text{
 display: flex;
@@ -290,6 +304,9 @@ a{
 color: #ffffff;
 text-decoration: none;
 cursor: not-allowed;
+}
+a:hover{
+text-decoration: underline;
 }
 small{
 filter: invert(100%);
